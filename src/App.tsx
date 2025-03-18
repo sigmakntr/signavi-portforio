@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      </header>
+      <main>
         <h1>Kentaro Fujimoto Portforio Site</h1>
         <div>
           <p>こんにちは。私のサイトを覗いてくださりありがとうございます。</p>
@@ -15,19 +17,8 @@ function App() {
           <li>フリーランスとして企業や個人事業主様のコーポレートサイトを制作</li>
           <li>Web開発企業でWebシステム開発（顧客管理システム、物件サイト）</li>
         </ul>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </main>
+      <footer></footer>
     </div>
   );
 }
