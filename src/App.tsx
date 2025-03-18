@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Kentaro Fujimoto ポートフォリオサイト</h1>
+        <div>
+          <p>こんにちは。私のサイトを覗いてくださりありがとうございます。。</p>
+        </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
