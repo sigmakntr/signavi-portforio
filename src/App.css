@@ -20,7 +20,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://source.unsplash.com/random/1920x1080");
+  /*background-image: url("https://source.unsplash.com/random/1920x1080");*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -34,7 +34,6 @@
   height: 100vh;
   overflow-y: auto;
   background: rgba(255, 255, 255, 0.8);
-  padding: 50px 20px;
   text-align: center;
 }
 
