@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
         <div className="App">
             <div className="background"></div>
             <div className="content">
-                <header className="header">
-                    <h1>Kentaro Fujimoto Portfolio</h1>
-                </header>
+                <Header />
                 <main>
                     <section id="about">
                         <h2>About</h2>
