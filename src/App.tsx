@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "./components/Header";
-import "./App.css";
+import Footer from "./components/Footer";
+import "./styles/reset.css";
+import "./styles/app/style.css";
 
 function App() {
     return (
-        <div className="App">
+        <div className="app">
             <div className="background"></div>
             <div className="content">
-                <Header />
+                <Header/>
                 <main>
                     <section id="about">
                         <h2>About</h2>
@@ -17,8 +19,21 @@ function App() {
                     <section id="works">
                         <h2>Works</h2>
                         <ul>
-                            <li>フリーランスとして企業や個人事業主様のコーポレートサイトを制作</li>
-                            <li>Web開発企業でWebシステム開発（顧客管理システム、物件サイト）</li>
+                            <li>2022-2023：フリーランスとして企業や個人事業主様のコーポレートサイト制作</li>
+                            <li>2024-2025：Web開発会社でWebシステム開発やインフラ構築</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
+                            <li>テスト</li>
                             <li>テスト</li>
                             <li>テスト</li>
                             <li>テスト</li>
@@ -35,9 +50,7 @@ function App() {
                         <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
                     </section>
                 </main>
-                <footer>
-                    <p>&copy; 2025 Kentaro Fujimoto</p>
-                </footer>
+                <Footer />
             </div>
         </div>
     );

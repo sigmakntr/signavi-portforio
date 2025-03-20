@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: beige;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu_left img {
+  width: 50px;
+}
+.header-menu_right {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu_rightContent {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
