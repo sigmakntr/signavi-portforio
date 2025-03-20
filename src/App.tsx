@@ -1,4 +1,5 @@
 import React from "react";
+import code from "./constants/code";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./styles/reset.css";
@@ -51,7 +52,7 @@ function App() {
                     <section id="contact">
                         <h2>Contact</h2>
                         <p>お問い合わせは以下のメールまでお願いします。</p>
-                        <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                        <p><a href={`mailto:${code.mails.contact}`}>{code.mails.contact}</a></p>
                     </section>
                 </main>
                 <Footer />
