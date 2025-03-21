@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./styles/reset.css";
 import "./styles/app/style.css";
+import "./styles/main/style.css";
 
 function App() {
     return (
@@ -12,7 +13,7 @@ function App() {
             <div className="content">
                 <Header/>
                 <main>
-                    <section id="about">
+                    <section id="about" className="section-about">
                         <h2>About</h2>
                         <p>こんにちは。私のサイトを覗いてくださりありがとうございます。</p>
                     </section>
