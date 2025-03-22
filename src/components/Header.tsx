@@ -9,9 +9,10 @@ function Header() {
       <div className="header-menu">
         <div className="header-menu_left"><img src={logo} alt="ƒƒS"/></div>
         <ul className="header-menu_right">
-          <li className="header-menu_rightContent"><a href="">ABOUT</a></li>
-          <li className="header-menu_rightContent"><a href="">WORKS</a></li>
-          <li className="header-menu_rightContent"><a href="">CONTACT</a></li>
+          <li className="header-menu_rightContent"><a href="#top">TOP</a></li>
+          <li className="header-menu_rightContent"><a href="#about">ABOUT</a></li>
+          <li className="header-menu_rightContent"><a href="#works">WORKS</a></li>
+          <li className="header-menu_rightContent"><a href="#contact">CONTACT</a></li>
           <li className="header-menu_rightContent"><a href={code.urls.signavi} target="_blank">BLOG</a></li>
         </ul>
       </div>
