@@ -1,5 +1,5 @@
 import React from "react";
-import code from "./../constants/code";
+import code from "../constants/code";
 import "../styles/header/style.css";
 import logo from "../images/icon_logo.png";
 

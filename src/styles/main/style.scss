@@ -1,15 +1,17 @@
 main {
   text-align: center;
   section {
-    scroll-margin-top: 10vh;
-    margin-bottom: 30px;
-    height: 90vh;
+    scroll-margin-top: 8vh;
+    margin: 0 auto 30px;
+    width: 90%;
     h2 {
-      font-size: 24px;
+      font-size: 34px;
+      font-weight: bold;
     }
   }
   .section-top {
     scroll-margin-top: 30vh;
+    height: 90vh;
     h1 {
       margin-top: 30vh;
       font-size: 40px;
@@ -23,6 +25,40 @@ main {
     }
   }
   .section-about {
-
+    &_contents {
+      margin: 20px auto;
+      &Item {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        &Image {
+          margin-right: 20px;
+          width: 30%;
+        }
+        &List {
+          h3 {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          ul {
+            li {
+              margin-top: 10px;
+              p {
+                display: inline-block;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+        &:nth-child(even) {
+          justify-content: flex-end;
+          .section-about_contentsItemImage {
+            margin-left: 20px;
+            margin-right: 0;
+          }
+        }
+      }
+    }
   }
 }
