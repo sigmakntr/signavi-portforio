@@ -27,7 +27,8 @@ function App() {
                 <div className="section-about_contentsItemList">
                   <h3>経歴</h3>
                   <ul>
-                    <li>2021/4-2021/6：プログラミングスクール TECH I.S.にてスキルを習得</li>
+                    <li>2021/4-2021/6：プログラミングスクール TECH I.S.にてプログラミングを学ぶ</li>
+                    <li></li>
                   </ul>
                 </div>
               </div>
